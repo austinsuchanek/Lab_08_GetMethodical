@@ -5,14 +5,11 @@ public class BirthDateTime
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
-
-
         int birthYear = 0;
         int birthMonth = 0;
         int birthDay = 0;
         int birthHour = 0;
         int birthMinute = 0;
-
 
         birthYear = SafeInput.getRangedInt(in, "Enter birth year (1950-2010): ", 1950, 2010);
         birthMonth = SafeInput.getRangedInt(in, "Enter birth month (1-12): ", 1, 12);
