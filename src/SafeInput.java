@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class SafeInput
 {
     /**
@@ -47,7 +46,6 @@ public class SafeInput
                 System.out.println("Enter a valid integer, not \"" + trash + "\"");
             }
 
-
         }while(!validInt);
 
         return retInteger;
@@ -94,6 +92,7 @@ public class SafeInput
      * @param high - high end of range
      * @return
      */
+
     public static int getRangedInt(Scanner pipe, String prompt, int low, int high)
     {
         int retInt = 0;
@@ -123,6 +122,7 @@ public class SafeInput
                 trash = pipe.nextLine();
                 System.out.println("Enter a valid integer not \"" + trash + "\"");
             }
+
         }while(!validInt);
 
         return retInt;
@@ -139,6 +139,7 @@ public class SafeInput
 
     public static double getRangedDouble(Scanner pipe, String prompt, double low, double high)
     {
+
         double retDouble = 0;
         boolean validDouble = false;
         String trash = "";

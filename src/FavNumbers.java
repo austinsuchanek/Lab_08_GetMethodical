@@ -7,9 +7,9 @@ public class FavNumbers
         int favInt = 0;
         double favDouble = 0;
 
-        favInt = SafeInput.getInt(in, "Please enter your favorite integer: ");
-        favDouble = SafeInput.getDouble(in, "Please enter your favorite double: ");
-        
-        System.out.println("Your favorite integer is " + favInt + " and your favorite double is " + favDouble + "! + ");
+        favInt = SafeInput.getInt(in, "What is your favorite integer: ");
+        favDouble = SafeInput.getDouble(in, "Now what is your favorite double: ");
+
+        System.out.println("Your favorite integer is " + favInt + " and your favorite double is " + favDouble + "!  ");
     }
 }
